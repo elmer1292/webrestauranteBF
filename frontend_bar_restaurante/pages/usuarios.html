@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuarios</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+   <div class="auth-container">
+        <div class="auth-form">
+            <h2>Registro de Usuario</h2>
+            <form id="registroForm">
+                <input type="text" id="nombre" placeholder="Nombre completo" required>
+                <input type="text" id="usuario" placeholder="Usuario" required>
+                <input type="password" id="contrasena" placeholder="Contraseña" required>
+                <select id="rol" required>
+                    <option value="">Seleccione un rol</option>
+                    <option value="admin">Administrador</option>
+                    <option value="mesero">Mesero</option>
+                    <option value="cocina">Cajero</option>
+                </select>
+                <button type="submit">Registrar</button>
+                
+                
+            </form>
+            <a href="../index.html"><button type="reset">Inicio</button></a>
+        </div>
+        
+    </div>
+    <script src="../static/css/styles.css"></script>
+    <script src="../static/js/usuarios.js"></script>
+    <script src="../static/js/components/nav.js"></script>
+    
+</body>
+</html>
